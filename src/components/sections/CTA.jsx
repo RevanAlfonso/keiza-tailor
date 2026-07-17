@@ -26,7 +26,7 @@ export function CTA() {
             Hubungi Keiza Tailor melalui WhatsApp untuk konsultasi. Kami siap membantu segala kebutuhan jahit Anda, dari pakaian formal hingga custom lainnya.
           </p>
           
-          <a href="https://wa.me/6281234567890?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/6281317571969?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." target="_blank" rel="noopener noreferrer">
             <Button variant="whatsapp" size="lg" className="text-lg px-8 shadow-lg font-bold">
               Hubungi via WhatsApp Sekarang
             </Button>

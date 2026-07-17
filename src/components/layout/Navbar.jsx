@@ -67,7 +67,7 @@ export function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a href="https://wa.me/6281234567890?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/6281317571969?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." target="_blank" rel="noopener noreferrer">
               <Button variant="primary" size="sm">Konsultasi WA</Button>
             </a>
           </nav>
@@ -99,7 +99,7 @@ export function Navbar() {
               </a>
             ))}
             <a 
-              href="https://wa.me/6281234567890?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." 
+              href="https://wa.me/6281317571969?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20jasa%20jahit." 
               target="_blank" 
               rel="noopener noreferrer"
               className="block mt-4"

@@ -19,7 +19,7 @@ export function SEO() {
       "postalCode": "25111", // Add actual postal code
       "addressCountry": "ID"
     },
-    "telephone": "+6281234567890",
+    "telephone": "+6281317571969",
     "url": url,
     "priceRange": "$$"
   };

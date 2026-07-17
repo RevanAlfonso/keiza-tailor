@@ -14,7 +14,7 @@ export function Footer() {
               Spesialis Jas Koas, Jas Apoteker & Seragam Dinas di Padang. Jahitan rapi, ukuran custom, dan kualitas terbaik untuk penampilan profesional Anda.
             </p>
             <div className="flex space-x-4">
-              <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
+              <a href="https://wa.me/6281317571969" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
                 <Phone size={20} />
               </a>
               <a href="#" target="_blank" rel="noopener noreferrer" className="bg-white/10 hover:bg-white/20 p-2 rounded-full transition-colors">
@@ -58,7 +58,7 @@ export function Footer() {
               </li>
               <li className="flex items-center">
                 <Phone className="mr-3 flex-shrink-0" size={20} />
-                <span className="text-gray-300">+62 812-3456-7890</span>
+                <span className="text-gray-300">+62 813-1757-1969</span>
               </li>
             </ul>
           </div>

@@ -26,7 +26,7 @@ export function Hero() {
             </p>
             
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
-              <a href="https://wa.me/6281234567890?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20pembuatan%20seragam." target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/6281317571969?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20pembuatan%20seragam." target="_blank" rel="noopener noreferrer">
                 <Button size="lg" className="w-full sm:w-auto">
                   Konsultasi via WhatsApp
                 </Button>

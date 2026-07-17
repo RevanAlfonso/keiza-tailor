@@ -5,13 +5,26 @@ import dinas1 from "../../../public/img/dinas1.jpeg"
 import dinas2 from "../../../public/img/dinas2.jpeg"
 import dinas3 from "../../../public/img/dinas3.jpeg"
 import dinas4 from "../../../public/img/dinas4.jpeg"
+import dinas5 from "../../../public/img/dinas5.jpeg"
+import dinas6 from "../../../public/img/dinas6.jpeg"
+import dinas7 from "../../../public/img/dinas7.jpeg"
+import dinas8 from "../../../public/img/dinas8.jpeg"
+import dinas9 from "../../../public/img/dinas9.jpeg"
+import dinas10 from "../../../public/img/dinas10.jpeg"
+import koas1 from "../../../public/img/koas.jpeg"
+import koas2 from "../../../public/img/koas1.jpeg"
+import koas3 from "../../../public/img/koas3.jpeg"
+import koas4 from "../../../public/img/koas4.jpeg"
+import bidan from "../../../public/img/bidan.jpeg"
+import random1 from "../../../public/img/random.jpeg"
+import random2 from "../../../public/img/chef.jpeg"
 
 export function Portfolio() {
   const ref = useScrollAnimation();
   const [activeCategory, setActiveCategory] = useState('Semua');
   const [visibleCount, setVisibleCount] = useState(6);
 
-  const categories = ['Semua', 'Jas Koas', 'Jas Apoteker', 'Seragam Dinas'];
+  const categories = ['Semua', 'Jas Koas', 'Seragam Nakes', 'Seragam Dinas', 'Lainnya'];
 
   const handleCategoryChange = (category) => {
     setActiveCategory(category);
@@ -20,13 +33,23 @@ export function Portfolio() {
 
   // Dummy images for portfolio using Unsplash with specific tailor/uniform themes
   const items = [
-    { id: 1, category: 'Jas Koas', img: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?q=80&w=600&auto=format&fit=crop' },
-    { id: 2, category: 'Seragam Dinas', img: 'https://images.unsplash.com/photo-1556228720-192a6af4e865?q=80&w=600&auto=format&fit=crop' },
-    { id: 3, category: 'Jas Apoteker', img: 'https://images.unsplash.com/photo-1582719508461-905c673771fd?q=80&w=600&auto=format&fit=crop' },
-    { id: 4, category: 'Seragam Dinas', img: dinas2 },
-    { id: 5, category: 'Seragam Dinas', img: dinas1 },
-    { id: 6, category: 'Seragam Dinas', img: dinas3 },
-    { id: 7, category: 'Seragam Dinas', img: dinas4 },
+    { id: 1, category: 'Seragam Dinas', img: dinas10 },
+    { id: 2, category: 'Seragam Dinas', img: dinas2 },
+    { id: 3, category: 'Seragam Dinas', img: dinas3 },
+    { id: 4, category: 'Seragam Dinas', img: dinas4 },
+    { id: 5, category: 'Seragam Dinas', img: dinas5 },
+    { id: 6, category: 'Seragam Dinas', img: dinas6 },
+    { id: 7, category: 'Dinas', img: dinas7 },
+    { id: 8, category: 'Seragam Dinas', img: dinas8 },
+    { id: 9, category: 'Seragam Dinas', img: dinas9 },
+    { id: 10, category: 'Seragam Dinas', img: dinas1 },
+    { id: 11, category: 'Seragam Nakes', img: koas1 },
+    { id: 12, category: 'Seragam Nakes', img: koas2 },
+    { id: 13, category: 'Seragam Nakes', img: koas3 },
+    { id: 14, category: 'Seragam Nakes', img: koas4 },
+    { id: 15, category: 'Seragam Nakes', img: bidan },
+    { id: 16, category: 'Lainnya', img: random1 },
+    { id: 17, category: 'Lainnya', img: random2 },
   ];
 
   const filteredItems = activeCategory === 'Semua' 

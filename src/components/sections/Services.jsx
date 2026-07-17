@@ -69,7 +69,7 @@ export function Services() {
                 Silakan hubungi kami melalui WhatsApp untuk konsultasi kebutuhan spesifik Anda.
               </p>
             </div>
-            <a href="https://wa.me/6281234567890?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20jahit%20lainnya." target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/6281317571969?text=Halo%20Keiza%20Tailor,%20saya%20ingin%20konsultasi%20mengenai%20layanan%20jahit%20lainnya." target="_blank" rel="noopener noreferrer">
               <Button variant="whatsapp" className="w-full bg-white text-primary hover:bg-gray-50 border-none">
                 Konsultasi Sekarang
               </Button>
